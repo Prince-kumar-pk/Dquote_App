@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "dquote_backend": {
+      "main": "src/dquote_backend/main.mo",
+      "type": "motoko"
+    },
+    "dquote_frontend": {
+      "dependencies": [
+        "dquote_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/dquote_frontend/src/index.html"
+      },
+      "source": [
+        "src/dquote_frontend/assets",
+        "dist/dquote_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
