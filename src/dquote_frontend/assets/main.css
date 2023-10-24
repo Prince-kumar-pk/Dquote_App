@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
   height: 100vh;
   font-family: "Kanit", sans-serif;
+  background-image: url('https://c1.wallpaperflare.com/preview/632/227/702/background-flatlay-template-paper.jpg');
+  /* background-size: contain; */
 }
 
 .app {
@@ -14,16 +16,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-
-  /* background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2)),
-    url("./images/bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: rgba(32, 38, 50, 255);
+  background-color: #9da1a113;
+  /* background-color: rgba(255, 255, 255, 0.212); */
+  background-image: radial-gradient(#ebe6e600, #bbbebb1f, #a7f4f7c2);
   text-align: center;
+  /* box-shadow: 0px 0px 0px 0px red; */
 }
 
 .card {
